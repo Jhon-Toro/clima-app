@@ -1,0 +1,77 @@
+
+
+.clima{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #333;
+    box-shadow: 0px 0px 10px rgba(0, 0, 0, 0.5);
+    width: 360px;
+    margin: 0 auto;
+
+}
+
+.descripcion {
+    text-align: center;
+}
+
+.custom-card {
+    text-align: center;
+}
+.dark-card {
+    background-color: #333;
+    color: #fff;
+}
+
+.label-temp {
+    font-size: 2rem;
+    font-weight: bold;
+}
+
+li {
+    list-style: none;
+}
+
+.humedad-principal, .viento-principal, .min-principal, .max-principal {
+    display: flex;
+}
+
+.humedad-principal img{
+    width: 40px;
+    height: 40px;
+}
+.viento-principal img{
+    width: 40px;
+    height: 40px;
+}
+.min-principal img{
+    width: 40px;
+    height: 40px;
+}
+.max-principal img{
+    width: 40px;
+    height: 40px;
+}
+
+.humedad, .viento, .min, .max {
+    padding: 0 10px;
+}
+
+.Estadisticas {
+    display:grid;
+    grid-template-columns: repeat(2, 1fr);
+    justify-content: center;
+    align-items: center;
+    margin: auto;
+
+}
+
+.Estadistica {
+    padding: 5px;
+    margin-left: 15px;
+}
+
+.descripcion {
+    text-transform: capitalize;
+}

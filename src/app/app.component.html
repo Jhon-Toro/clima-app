@@ -1,0 +1,56 @@
+<div class="clima">
+    <p-dropdown 
+      [options]="cities" 
+      [(ngModel)]="selectedCity" 
+      optionLabel="name" 
+      (onChange)="selectedCityChanged()"
+      placeholder="Selecciona una ubicación"/>
+  
+    <p-card [header]="selectedCity ? selectedCity.name : 'Selecciona una ubicación'" [style]="{ width: '360px' }" class="custom-card dark-card">
+      <div *ngIf="weatherDetails && weatherDetails.weather && weatherDetails.weather.length > 0">
+        <img *ngIf="weatherDetails.weather[0].main === 'Clear'" src="assets/Img/clear.png" alt="Soleado">
+        <img *ngIf="weatherDetails.weather[0].main === 'Rain'" src="assets/Img/rain.png" alt="Lluvioso">
+        <img *ngIf="weatherDetails.weather[0].main === 'Drizzle'" src="assets/Img/drizzle.png" alt="Llovizna">
+        <img *ngIf="weatherDetails.weather[0].main === 'Clouds'" src="assets/Img/clouds.png" alt="Nublado">
+    </div>
+      <div class="Principal" *ngIf="weatherDetails && weatherDetails.weather && weatherDetails.weather.length > 0">
+        <div class="Estadistica">
+          <label class="label-temp">{{weatherDetails ? (weatherDetails.main.temp - 273.15).toFixed(2) : ''}} °C</label>
+        </div>
+        <div class="Estadistica">
+          <label class="descripcion">{{weatherDetails?.weather[0]?.description}}</label>
+      </div>
+    </div>
+      <div class="Estadisticas" *ngIf="weatherDetails && weatherDetails.weather && weatherDetails.weather.length > 0">
+        <div class="Estadistica humedad-principal">
+          <img src="assets/Img/humidity.png" alt="">
+            <div class="humedad">
+              <li>Humedad</li>
+              <label>{{weatherDetails?.main?.humidity}} %</label>
+            </div>
+        </div>
+        <div class="Estadistica viento-principal">
+          <img src="assets/Img/wind.png" alt="">
+          <div class="viento">
+            <li>Viento</li>
+            <label>{{weatherDetails?.wind?.speed}} m/s</label>
+          </div>
+        </div>
+        <div class="Estadistica min-principal">
+          <img src="assets/Img/min.png" alt="">
+          <div class="min">
+            <li>Min</li>
+            <label>{{weatherDetails ? (weatherDetails.main.temp_min - 273.15).toFixed(2) : ''}} °C</label>
+          </div>
+        </div>
+        <div class="Estadistica max-principal">
+          <img src="assets/Img/max.png" alt="">
+          <div class="max">
+            <li>Max</li>
+            <label>{{weatherDetails ? (weatherDetails.main.temp_max - 273.15).toFixed(2) : ''}} °C</label>
+          </div>
+        </div>
+      </div>
+    </p-card>
+</div>
+  
