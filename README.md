@@ -6,7 +6,6 @@
 
 ## Características
 
-- **Búsqueda de Ciudad**: Ingresa el nombre de cualquier ciudad para obtener su clima actual.
 - **Datos Meteorológicos en Tiempo Real**: Información detallada sobre la temperatura, humedad, presión atmosférica y más.
 - **Interfaz Intuitiva**: Diseño moderno y fácil de usar con componentes de PrimeNG para una experiencia de usuario fluida y atractiva.
 - **Responsivo**: Compatible con dispositivos móviles y de escritorio.
