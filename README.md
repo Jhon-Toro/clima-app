@@ -66,4 +66,4 @@ Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consult
 
 ---
 
-¡Gracias por ver el proyecto GYMWARRIOR!
+¡Gracias por ver el proyecto Clima-App!
