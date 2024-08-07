@@ -30,3 +30,19 @@ Para ejecutar la aplicación localmente, sigue estos pasos:
 
    ```bash
    git clone https://github.com/Jhon-Toro/clima-app.git
+   
+2. **Clona el repositorio**:
+   ```bash
+   cd clima-app
+   
+3. **Instala las dependencias:**
+   ```bash
+   npm install
+
+4. **Ejecuta la aplicación:**
+   ```bash
+   ng serve
+
+5. **Abre tu navegador y visita [http://localhost:4200](http://localhost:4200) para ver la aplicación.**
+
+
