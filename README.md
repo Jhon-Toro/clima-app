@@ -20,7 +20,7 @@
 
 ## Enlace de la Aplicación
 
-Puedes ver la aplicación en acción [aquí](https://jhon-toro.github.io/clima-app/).
+Puedes ver la aplicación en acción aquí -> [jhon-toro.github.io/clima-app](https://jhon-toro.github.io/clima-app/).
 
 ## Instalación
 
