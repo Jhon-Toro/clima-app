@@ -1,27 +1,32 @@
-# ClimaApp
+# Clima-App
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 17.3.7.
+![Clima-App](https://jhon-toro.github.io/clima-app/assets/clima-app-screenshot.png)
 
-## Development server
+**Clima-App** es una aplicación web desarrollada con **Angular** y **PrimeNG** que utiliza la **API de OpenWeather** para proporcionar datos meteorológicos en tiempo real. La aplicación permite a los usuarios buscar el clima de cualquier ciudad y ver información actualizada sobre la temperatura, la humedad, la presión atmosférica y más.
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Características
 
-## Code scaffolding
+- **Búsqueda de Ciudad**: Ingresa el nombre de cualquier ciudad para obtener su clima actual.
+- **Datos Meteorológicos en Tiempo Real**: Información detallada sobre la temperatura, humedad, presión atmosférica y más.
+- **Interfaz Intuitiva**: Diseño moderno y fácil de usar con componentes de PrimeNG para una experiencia de usuario fluida y atractiva.
+- **Responsivo**: Compatible con dispositivos móviles y de escritorio.
 
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
+## Tecnologías Utilizadas
 
-## Build
+- **Angular**: Framework para el desarrollo de la aplicación web.
+- **PrimeNG**: Biblioteca de componentes de UI para Angular que mejora la experiencia de usuario.
+- **OpenWeather API**: Servicio que proporciona datos meteorológicos en tiempo real.
+- **CSS**: Para el diseño y la disposición de los elementos de la interfaz.
 
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
+## Enlace de la Aplicación
 
-## Running unit tests
+Puedes ver la aplicación en acción [aquí](https://jhon-toro.github.io/clima-app/).
 
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
+## Instalación
 
-## Running end-to-end tests
+Para ejecutar la aplicación localmente, sigue estos pasos:
 
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
+1. **Clona el repositorio**:
 
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+   ```bash
+   git clone https://github.com/Jhon-Toro/clima-app.git
