@@ -44,4 +44,26 @@ Para ejecutar la aplicación localmente, sigue estos pasos:
 
 5. **Abre tu navegador y visita [http://localhost:4200](http://localhost:4200) para ver la aplicación.**
 
+## Contribuciones
 
+¡Las contribuciones son bienvenidas! Por favor, sigue los siguientes pasos para contribuir:
+
+1. Haz un fork del proyecto.
+2. Crea una nueva rama (`git checkout -b feature/nueva-funcionalidad`).
+3. Realiza tus cambios y haz commit (`git commit -m 'Agrega nueva funcionalidad'`).
+4. Sube tus cambios (`git push origin feature/nueva-funcionalidad`).
+5. Abre un Pull Request.
+
+## Licencia
+
+Este proyecto está licenciado bajo la Licencia MIT. Para más detalles, consulta el archivo [LICENSE](LICENSE).
+
+## Contacto
+
+- **Nombre**: Jhon Toro
+- **Correo**: toromurieljhon@gmail.com
+- **GitHub**: [Jhon-Toro](https://github.com/Jhon-Toro)
+
+---
+
+¡Gracias por ver el proyecto GYMWARRIOR!
