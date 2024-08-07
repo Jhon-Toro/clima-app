@@ -1,7 +1,7 @@
 # Clima-App
 
 ![Clima-App](https://github.com/Jhon-Toro/clima-app/blob/main/Clima1.PNG)
-
+![Clima-App](https://github.com/Jhon-Toro/clima-app/blob/main/Clima2.PNG)
 **Clima-App** es una aplicación web desarrollada con **Angular** y **PrimeNG** que utiliza la **API de OpenWeather** para proporcionar datos meteorológicos en tiempo real. La aplicación permite a los usuarios buscar el clima de cualquier ciudad y ver información actualizada sobre la temperatura, la humedad, la presión atmosférica y más.
 
 ## Características
